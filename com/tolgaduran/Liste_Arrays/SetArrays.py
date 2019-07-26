@@ -7,7 +7,7 @@ print(setArray)
 
 # set dizileri sırasız (unordered) oldukları için rastgele sayılarlqa indislenirler
 # sırasız olduğu için hata verir
-# print(setArray[2])
+print(setArray[2])
 
 # set dizileri 1 kere oluşturulduktan sonra içeriği değişirilemez ancak ekleme veya çıkarma yapılabilir
 # {'Doğum Yeri', 'İsim', 'Doğum Tarihi', 'Soyisim'} çıktısını verir
