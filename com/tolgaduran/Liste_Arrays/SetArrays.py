@@ -50,8 +50,8 @@ print(setArray)
 # diziyi tamamen siler
 # dizi bulunamayacağı için hata döner
 # NameError: name 'setArray' is not defined
-# del setArray
-# print(setArray)
+del setArray
+print(setArray)
 
 # set dizisini set() fonksiyonu kullanarak da tanımlayabiliriz
 # NOT : İçiçe 2 tane parantez tanımlanmalıdır
