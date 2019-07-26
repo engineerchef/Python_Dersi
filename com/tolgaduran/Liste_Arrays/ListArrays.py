@@ -42,19 +42,19 @@ listArray.pop()
 print(listArray)
 
 # dizide belirtilen indisin değerini siler
-# # ['armut'] çıktısını verir
-# del listArray[0]
-# print(listArray)
+# ['armut'] çıktısını verir
+del listArray[0]
+print(listArray)
 
 # ayrıca del anahtarı herhangi bir indis belirtilmeden tüm diziye uygulanırsa listeyi tamamen siler
 # liste tamamen silindiği için hata çıktısı döner
-# del listArray
-# print(listArray)
+del listArray
+print(listArray)
 
 # clear() fonksiyonu dizinin içeriğini boşaltır
 # [] çıktısını verir
-# listArray.clear()
-# print(listArray)
+listArray.clear()
+print(listArray)
 
 # önceden tanımlanmış olan dizinin birebir kopyasını alır
 # ['elma', 'armut'] çıktısını verir
