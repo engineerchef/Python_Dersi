@@ -65,8 +65,8 @@ print(dictionaryArray)
 # del ile diziyi tamamen silebiliriz
 # hata verir
 # NameError: name 'dictionaryArray' is not defined
-del dictionaryArray
-print(dictionaryArray)
+# del dictionaryArray
+# print(dictionaryArray)
 
 # clear() fonksiyonu ile dizi içeriği tamamen silinir
 dictionaryArray.clear()
