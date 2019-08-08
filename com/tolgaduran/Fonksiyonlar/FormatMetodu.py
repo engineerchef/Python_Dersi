@@ -66,3 +66,4 @@ def listeFonksiyonu(*args):
 
 print("\nListe içerik\n")
 listeFonksiyonu("Tolga", "DURAN", 38)
+
