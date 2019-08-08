@@ -37,6 +37,13 @@ print(kullanici)
 kullanici = "{:s} {:s} {:d} yaşındadır.".format(ad, soyad, yas)
 print(kullanici)
 
+# Sayıları basamaklarına ayırmak için ise süslü parantezler arasında ayracı tanımlamamız yeterli olacaktır.
+sayi=156875902154
+print("Formatlanarak basamaklarına ayrılan sayı => {:,}".format(sayi))
+
+# Bir de onluk sistemde verilen bir sayının ikilik sistemdeki karşılığını şu şeilde bulabiliriz.
+print("648 sayısının ikilik sistemdeki karşılığı => {:b}".format(648))
+
 # Benzer şekilde aşağıdaki örnekte olduğu gibi verilen bir hark dizisindeki her harfi ayrı ayrı yazdırmak için
 # for döngüsünü kullanarak formatlama işlemini fonksiyon kullanarak yapalım.
 harfler = "abcçdefgğhıijklmnoöpqrsştuüvwxyz"
