@@ -1,4 +1,4 @@
-x=input("Sayı giriniz : ")
+x = input("Sayı giriniz : ")
 # x=int(x)
 #
 # if x==5:
